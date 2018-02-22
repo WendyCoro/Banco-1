@@ -109,7 +109,7 @@ public int eliminar(Cuenta_Ahorros cuenta_Ahorros) throws Exception {
                 Cuenta cuenta=cuentadao.obtener(rst.getInt(2));
                 cuenta_Ahorros.setCuenta(cuenta);
                 cuenta_Ahorros.setSaldo(rst.getInt(3));
-                cuenta_Ahorros.setInteres(rst.getInt(3));
+                cuenta_Ahorros.setInteres(rst.getInt(4));
             
 
             }
@@ -140,7 +140,7 @@ public int eliminar(Cuenta_Ahorros cuenta_Ahorros) throws Exception {
                 Cuenta cuenta=cuentadao.obtener(rst.getInt(2));
                 cuenta_Ahorros.setCuenta(cuenta);
                 cuenta_Ahorros.setSaldo(rst.getInt(3));
-                cuenta_Ahorros.setInteres(rst.getInt(3));
+                cuenta_Ahorros.setInteres(rst.getInt(4));
                 lista.add(cuenta_Ahorros);
             }
         } catch (Exception e) {
