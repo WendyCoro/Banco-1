@@ -22,7 +22,7 @@ public interface ICiudad {
 
     public Ciudad obtener(int codigo) throws Exception;
 
-    public ArrayList<Ciudad> obtener() throws Exception;
+    public List<Ciudad> obtener() throws Exception;
     
 }
 

@@ -7,6 +7,7 @@ package banco.rnenogio.dao;
 
 import banco.rnegocio.entidades.Empleado;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -21,5 +22,5 @@ public interface IEmpleado {
 
     public Empleado obtener(int codigo) throws Exception;
 
-    public ArrayList<Empleado> obtener() throws Exception;
+    public List<Empleado> obtener() throws Exception;
 }
