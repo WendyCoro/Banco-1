@@ -7,6 +7,7 @@ package banco.rnenogio.dao;
 
 import banco.rnegocio.entidades.Prestamo;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -21,5 +22,5 @@ public interface IPrestamo {
 
     public Prestamo obtener(int codigo) throws Exception;
 
-    public ArrayList<Prestamo> obtener() throws Exception;
+    public List<Prestamo> obtener() throws Exception;
 }

@@ -7,6 +7,7 @@ package banco.rnenogio.dao;
 
 import banco.rnegocio.entidades.Sucursal;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -21,5 +22,5 @@ public interface ISucursal {
 
     public Sucursal obtener(int codigo) throws Exception;
 
-    public ArrayList<Sucursal> obtener() throws Exception;  
+    public List<Sucursal> obtener() throws Exception;  
 }
